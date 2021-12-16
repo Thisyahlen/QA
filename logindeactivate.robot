@@ -9,9 +9,9 @@ Login
     maximize browser window
     wait until page contains element  //*[@id="txtEmail"]  20
     click element  //*[@id="txtEmail"]
-    input text  //*[@id="txtEmail"]  thisyahlen27+3@gmail.com
+    input text  //*[@id="txtEmail"]  *email*
     click element  //*[@id="txtPass"]
-    input text  //*[@id="txtPass"]  Testing1234
+    input text  //*[@id="txtPass"]  *password*
     click element  //*[@id="lost-password-container"]/button
     wait until page contains element  //*[@class="dc-btn dc-btn--primary dc-btn__large deactivate-account__button"]  30
     click element  //*[@class="dc-btn dc-btn--primary dc-btn__large deactivate-account__button"]

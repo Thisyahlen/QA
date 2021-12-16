@@ -16,8 +16,8 @@ Open Deriv
     wait until page contains element     ${login_btn}     60
     click element   ${login_btn}
     wait until page contains element    ${email}   15
-    input text  ${email}   thisyahlen27+3@gmail.com
-    input password  name=password   Testing1234
+    input text  ${email}   email
+    input password  name=password   password
     click element   name=login
     wait until page does not contain element    dt_core_header_acc-info-preloader   30
     wait until page contains element    dt_core_account-info_acc-info   60

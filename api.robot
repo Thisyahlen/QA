@@ -12,6 +12,6 @@ Resource  delete_api.robot
 Open Deriv Api Token Page
 
     Login
-#    Create
-#    Copy
+    Create
+    Copy
     Delete
